@@ -22,6 +22,10 @@
     --pink: #F682A5;
 }
 
+.text-highlight {
+    color: var(--text-highlight);
+}
+
 .text-3xl {
     font: var(--text-3xl);
 }

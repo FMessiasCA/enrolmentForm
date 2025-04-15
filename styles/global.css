@@ -17,8 +17,8 @@
     --text-tertiary: #8F8881;
     --text-highlight: #E43A12;
 
-    --surface-primary: rgb(242, 242, 242);
-    --surface-secondary: ##FEE7D6;
+    --surface-primary: #f2f2f2;
+    --surface-secondary: #FEE7D6;
     --surface-disable: #E7E5E4;
 
     --stroke-default: #D6D3D1;
@@ -55,4 +55,20 @@ body {
     font: var(--text-sm);
     color: var(--text-primary);
     background-color: var(--surface-primary);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 51.25% 48.75%;
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+form,
+aside {
+  padding: 6.4rem;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
