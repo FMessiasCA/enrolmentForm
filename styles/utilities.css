@@ -1,0 +1,51 @@
+.orange {
+    --orange: #F9A474;
+}
+
+.yellow {
+    --yellow: #FEDF6F;
+}
+
+.green {
+    --green: #C7D78D;
+}
+
+.blue {
+    --blue: #B8CEDC;
+}
+
+.violet {
+    --violet: #C3B2E7;
+}
+
+.pink {
+    --pink: #F682A5;
+}
+
+.text-3xl {
+    font: var(--text-3xl);
+}
+
+.text-2xl {
+    font: var(--text-2xl);
+}
+
+.text-xl {
+    font: var(--text-xl);
+}
+
+.text-lg {
+    font: var(--text-lg);
+}
+
+.text-base {
+    font: var(--text-base);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.font-medium {
+    font-weight: 500;
+}
