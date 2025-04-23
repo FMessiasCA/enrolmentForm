@@ -13,10 +13,19 @@
         -ms-overflow-style: none;
     }
 
+    main {
+        #flexible-main {
+            max-width: 52.8rem;
+            margin-left: auto;
+        }
+    }
+
     aside {
         background-color: var(--surface-secondary);
         
-        #fixed-content {
+        #fixed-aside {
+            max-width: 49.6rem;
+
             display: flex;
             flex-direction: column;
             gap: 3.2rem;
